@@ -1,0 +1,35 @@
+.academy-form-group {
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+
+	label {
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 26px;
+		color: #545454;
+		margin-bottom: 0.5rem;
+		display: block;
+	}
+
+	.academy-form-control {
+		margin: 0;
+		height: 44px;
+		padding: 0 15px 2px 15px;
+		border-radius: 8px;
+		border: 1px solid var(--academy-border-color);
+		color: #111;
+		font-size: 14px;
+		width: 100%;
+		outline: 0;
+		&:hover,
+		&:focus {
+			border-color: var(--academy-primary-color);
+		}
+	}
+	input[type='textarea'].academy-form-control {
+		min-height: 75px;
+        padding: 10px 20px;
+		height: auto;
+	}
+}

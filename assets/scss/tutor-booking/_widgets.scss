@@ -1,0 +1,76 @@
+$montserrat: 'Montserrat', sans-serif;
+$inter: 'Inter', sans-serif;
+
+.academy-widget-booking {
+    background: #ffffff;
+    border: 1px solid var(--academy-border-color);
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px var(--academy-border-color);
+    border-radius: 10px;
+    padding: 30px;
+    &__head {
+        border-bottom: 1px solid var(--academy-border-color);
+        padding-bottom: 25px;
+        .academy-booking-type {
+            font-family: $montserrat;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 50px;
+            color: #000000;
+        }
+        .academy-booking-price {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            align-items: flex-end;
+            flex-wrap: wrap-reverse;
+            ins {
+                font-family: $montserrat;
+                font-size: 36px;
+                line-height: 46px;
+                text-decoration: none;
+                font-weight: 700;
+                color: #000;
+            }
+            del {
+                font-family: $montserrat;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 36px;
+                color: var(--academy-dark-gray-color);
+                margin-left: 10px;
+            }
+        }
+    }
+    &__content {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        &-lists {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li {
+                font-family: $inter;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                list-style: none;
+                color: #111111;
+                margin-bottom: 36px;
+                display: flex;
+                justify-content: space-between;
+                .academy-icon {
+                    margin-right: 10px;
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    &__footer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}

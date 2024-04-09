@@ -1,0 +1,41 @@
+#category_wise_membership ul ul {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.academy-pmpro-categories-notice {
+    align-items: center;
+    background: #fff;
+    border-left: 5px solid;
+    border-color: rgba(0,0,0,.08) rgba(0,0,0,.08) rgba(0,0,0,.08) #7b68ee;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    display: flex;
+    margin-left: 0;
+    margin-top: 15px;
+    padding: 25px 20px;
+}
+.academy-pmpro-categories-notice .entry-left {
+    align-items: center;
+    background: #6e62e5!important;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    padding: 16px;
+    position: relative;
+    width: 30px;
+}
+.academy-pmpro-categories-notice h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.academy-pmpro-categories-notice .unassign-categories strong::after {
+    content: ',';
+}
+.academy-pmpro-categories-notice .unassign-categories strong:last-child::after {
+    content: none;
+}

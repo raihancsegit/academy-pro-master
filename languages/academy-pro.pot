@@ -1,0 +1,841 @@
+# Copyright (C) 2023 Academy LMS
+# This file is distributed under the same license as the Academy LMS Pro plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Academy LMS Pro 1.7.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/academy-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-17T11:22:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: academy-pro\n"
+
+#. Plugin Name of the plugin
+msgid "Academy LMS Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://academylms.net"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extend Academy LMS functionality With Academy LMS Pro"
+msgstr ""
+
+#. Author of the plugin
+msgid "Academy LMS"
+msgstr ""
+
+#: addons/assignments/ajax.php:91
+#: addons/tutor-booking/frontend/ajax.php:219
+#: addons/zoom/ajax.php:35
+msgid "Sorry, something went wrong!"
+msgstr ""
+
+#: addons/assignments/ajax.php:117
+#: addons/assignments/ajax.php:164
+#: addons/assignments/ajax.php:220
+#: addons/zoom/ajax.php:43
+msgid "Access Denied"
+msgstr ""
+
+#: addons/assignments/ajax.php:141
+msgid "Already Submitted"
+msgstr ""
+
+#: addons/assignments/ajax.php:184
+msgid "Assignment Haven't started yet."
+msgstr ""
+
+#: addons/assignments/ajax.php:200
+msgid "Expired Your Submission. Contact with instructor"
+msgstr ""
+
+#: addons/assignments/ajax.php:237
+msgid "Sorry, Failed to delete submission."
+msgstr ""
+
+#: addons/assignments/ajax.php:242
+msgid "Complete the assignment before marking it as done."
+msgstr ""
+
+#: addons/assignments/database.php:21
+msgid "Assignments"
+msgstr ""
+
+#: addons/assignments/database.php:22
+msgid "Assignment"
+msgstr ""
+
+#: addons/assignments/database.php:23
+msgid "Search Assignment"
+msgstr ""
+
+#: addons/assignments/database.php:24
+msgid "Parent Assignment:"
+msgstr ""
+
+#: addons/assignments/database.php:25
+msgid "No Assignments found."
+msgstr ""
+
+#: addons/assignments/database.php:26
+msgid "No Assignments found in Trash."
+msgstr ""
+
+#: addons/assignments/database.php:27
+msgid "Assignment archives"
+msgstr ""
+
+#: addons/content-drip/hooks.php:64
+#: addons/content-drip/hooks.php:74
+msgid "This content will be accessible on"
+msgstr ""
+
+#: addons/content-drip/hooks.php:83
+msgid "You must complete the previous topic to proceed."
+msgstr ""
+
+#: addons/content-drip/hooks.php:101
+msgid "To access this topic, finish the following prerequisites."
+msgstr ""
+
+#: addons/email/ajax.php:54
+#: addons/white-label/ajax.php:44
+msgid "Something went wrong!!"
+msgstr ""
+
+#: addons/email/ajax.php:71
+msgid "Mail Settings is disable. Please Enable it and try again."
+msgstr ""
+
+#: addons/email/ajax.php:110
+msgid "Test Mail Send Successfully."
+msgstr ""
+
+#: addons/email/ajax.php:113
+msgid "Test Mail Send Failed."
+msgstr ""
+
+#: addons/enrollment/admin/ajax.php:52
+#: addons/enrollment/admin/ajax.php:86
+msgid "Course ID and Student ID is Required"
+msgstr ""
+
+#: addons/enrollment/admin/ajax.php:60
+#: addons/enrollment/admin/ajax.php:70
+msgid "Successfully Enrolled!"
+msgstr ""
+
+#. translators: %s represents the enrolled status of a user
+#: addons/enrollment/admin/ajax.php:63
+msgid "Enroll Status is %s"
+msgstr ""
+
+#: addons/enrollment/admin/ajax.php:65
+msgid "Already Enrolled!"
+msgstr ""
+
+#: addons/enrollment/admin/ajax.php:73
+#: addons/enrollment/admin/ajax.php:94
+msgid "Failed, something went wrong!"
+msgstr ""
+
+#: addons/enrollment/admin/ajax.php:91
+msgid "Successfully Remove Enrolled!"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/list-table-body.php:19
+msgid "Full Site Membership"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/list-table-body.php:23
+msgid "Category Wise Membership"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/list-table-category-notice.php:15
+msgid "Academy course categories that are not assigned to any level."
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/list-table-category-notice.php:16
+msgid "You need to assign a level to each course category in Academy LMS. Otherwise, they will be free for everyone. This is important if you want to earn money from your courses."
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/list-table-head.php:6
+msgid "Recommended"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/list-table-head.php:7
+msgid "Type"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/settings.php:7
+msgid "Academy LMS Content Settings"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/settings.php:12
+msgid "Membership Model"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/settings.php:18
+msgid "Select a membership model"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/settings.php:19
+msgid "Full website membership"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/settings.php:20
+msgid "Category wise membership"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/settings.php:26
+msgid "Course Categories"
+msgstr ""
+
+#: addons/paid-memberships-pro/admin/views/settings.php:79
+msgid "Add Recommend badge"
+msgstr ""
+
+#: addons/scorm/ajax.php:35
+msgid "Successfully uploaded but failed to unzip"
+msgstr ""
+
+#: addons/scorm/ajax.php:47
+msgid "Successfully Removed"
+msgstr ""
+
+#: addons/scorm/ajax.php:49
+msgid "Sorry, failed to delete"
+msgstr ""
+
+#: addons/tutor-booking/admin.php:27
+msgid "Academy Tutor Booking Page"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:28
+msgid "Academy Tutor Booking permalinks"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:32
+msgid "Tutor Booking category base"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:39
+msgid "Tutor Booking tag base"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:52
+#: addons/tutor-booking/helper.php:434
+msgctxt "slug"
+msgid "booking-category"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:61
+#: addons/tutor-booking/helper.php:435
+msgctxt "slug"
+msgid "booking-tag"
+msgstr ""
+
+#. translators: %s: Home URL
+#: addons/tutor-booking/admin/permalink-settings.php:70
+msgid "If you like, you may enter custom structures for your booking URLs here. For example, using <code>booking</code> would make your booking links like <code>%sbooking/sample-booking/</code>. This setting affects booking URLs only, not things such as booking categories."
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:73
+#: addons/tutor-booking/admin/permalink-settings.php:74
+msgctxt "default-slug"
+msgid "booking"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:86
+msgid "Default"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:91
+msgid "Bookings base"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:97
+msgid "Custom base"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:99
+msgid "Enter a custom base to use. A base must be set or WordPress will use default instead."
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:157
+#: addons/tutor-booking/admin/permalink-settings.php:160
+#: addons/tutor-booking/helper.php:433
+msgctxt "slug"
+msgid "booking"
+msgstr ""
+
+#: addons/tutor-booking/admin/permalink-settings.php:167
+msgctxt "default-slug"
+msgid "courses"
+msgstr ""
+
+#: addons/tutor-booking/database.php:25
+#: addons/tutor-booking/installer.php:17
+msgid "Tutor Booking"
+msgstr ""
+
+#: addons/tutor-booking/database.php:26
+msgid "booking"
+msgstr ""
+
+#: addons/tutor-booking/database.php:27
+msgid "Search Tutor Booking"
+msgstr ""
+
+#: addons/tutor-booking/database.php:28
+msgid "Parent Tutor Booking:"
+msgstr ""
+
+#: addons/tutor-booking/database.php:29
+msgid "No booking found."
+msgstr ""
+
+#: addons/tutor-booking/database.php:30
+msgid "No booking found in Trash."
+msgstr ""
+
+#: addons/tutor-booking/database.php:31
+msgid "tutor booking archives"
+msgstr ""
+
+#: addons/tutor-booking/frontend/ajax.php:41
+msgid "Congratulations, successfully Added to cart and redirecting..."
+msgstr ""
+
+#: addons/tutor-booking/frontend/ajax.php:50
+msgid "Congratulations, successfully booked."
+msgstr ""
+
+#: addons/tutor-booking/frontend/ajax.php:57
+msgid "Sorry, Failed to booked!!"
+msgstr ""
+
+#: addons/tutor-booking/frontend/ajax.php:166
+msgid "Sorry no course found."
+msgstr ""
+
+#: addons/tutor-booking/frontend/ajax.php:203
+msgid "Sorry, you have no permission to cancel appointment"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:21
+#: addons/tutor-booking/functions.php:76
+msgid "Showing all"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:22
+#: addons/tutor-booking/functions.php:77
+msgid "results"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:28
+#: addons/tutor-booking/functions.php:83
+msgid "Default Sorting"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:31
+msgid "Order by course name"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:34
+#: addons/tutor-booking/functions.php:89
+msgid "Order by Release Date"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:37
+#: addons/tutor-booking/functions.php:92
+msgid "Order by Modified Date"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:86
+msgid "Order by Booking name"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:176
+#: templates/booking/loop/price.php:13
+#: templates/booking/single-booking/booking.php:11
+msgid "Free"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:177
+#: templates/booking/loop/price.php:11
+#: templates/booking/single-booking/booking.php:8
+msgid "Paid"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:194
+msgid "Live Class"
+msgstr ""
+
+#: addons/tutor-booking/functions.php:195
+msgid "Pre-Recorded"
+msgstr ""
+
+#: addons/tutor-booking/helper.php:121
+msgid "Booking Booked"
+msgstr ""
+
+#: addons/tutor-booking/helper.php:279
+msgid "The instructor has not set any meeting/class details. Please contact the instructor via email at"
+msgstr ""
+
+#: addons/white-label/hooks.php:29
+msgid "Pro"
+msgstr ""
+
+#: addons/zoom/ajax.php:100
+msgid "Account ID, Client ID and Client Secret is required"
+msgstr ""
+
+#: addons/zoom/ajax.php:124
+msgid "Wrong API Key and Secret Key"
+msgstr ""
+
+#: addons/zoom/ajax.php:145
+#: addons/zoom/ajax.php:211
+msgid "Sorry, Invalid Date Time Format"
+msgstr ""
+
+#: addons/zoom/ajax.php:171
+msgid "Sorry, Failed to Create Zoom Meeting."
+msgstr ""
+
+#: addons/zoom/ajax.php:235
+msgid "Sorry, Failed to update zoom meeting"
+msgstr ""
+
+#: addons/zoom/ajax.php:287
+msgid "Sorry, Failed to Delete Zoom Meeting."
+msgstr ""
+
+#: addons/zoom/database.php:22
+msgid "Zoom"
+msgstr ""
+
+#: addons/zoom/database.php:23
+msgid "zoom"
+msgstr ""
+
+#: addons/zoom/database.php:24
+msgid "Search Zoom"
+msgstr ""
+
+#: addons/zoom/database.php:25
+msgid "Parent Zoom:"
+msgstr ""
+
+#: addons/zoom/database.php:26
+msgid "No zoom found."
+msgstr ""
+
+#: addons/zoom/database.php:27
+msgid "No zoom found in Trash."
+msgstr ""
+
+#: addons/zoom/database.php:28
+msgid "zoom archives"
+msgstr ""
+
+#: includes/admin/ajax.php:25
+#: includes/admin/ajax.php:82
+#: includes/admin/ajax.php:140
+#: includes/admin/ajax.php:224
+msgid "Upload File is empty."
+msgstr ""
+
+#: includes/admin/ajax.php:30
+#: includes/admin/ajax.php:87
+#: includes/admin/ajax.php:145
+#: includes/admin/ajax.php:229
+msgid "Wrong File Format! Please import csv file."
+msgstr ""
+
+#: includes/admin/ajax.php:58
+#: includes/admin/ajax.php:116
+msgid "Successfully, Inserted."
+msgstr ""
+
+#: includes/admin/ajax.php:72
+#: includes/admin/ajax.php:130
+#: includes/admin/ajax.php:213
+msgid "Failed to open the file"
+msgstr ""
+
+#: includes/admin/ajax.php:174
+msgid "Failed! Email and Course Id is required to enroll"
+msgstr ""
+
+#: includes/admin/ajax.php:187
+msgid "Failed! Something wrong."
+msgstr ""
+
+#: includes/admin/ajax.php:198
+msgid "Failed! Already Enrolled."
+msgstr ""
+
+#: includes/admin/ajax.php:204
+msgid "Successfully, Inserted and enrolled."
+msgstr ""
+
+#: includes/admin/ajax.php:204
+msgid "Failed! Sorry failed to enroll."
+msgstr ""
+
+#: includes/admin/ajax.php:305
+msgid "Successfully Inserted Quiz"
+msgstr ""
+
+#: includes/admin/ajax.php:308
+msgid "Failed, Already Inserted Quiz"
+msgstr ""
+
+#: includes/admin/ajax.php:357
+msgid "Failed, Already Inserted Question"
+msgstr ""
+
+#: includes/admin/ajax.php:373
+msgid "Successfully Inserted Question"
+msgstr ""
+
+#: includes/admin/ajax.php:386
+msgid "Failed, Already Inserted Answer"
+msgstr ""
+
+#: includes/admin/ajax.php:401
+msgid "Successfully Inserted Answer"
+msgstr ""
+
+#: includes/admin/license.php:18
+msgid "Academy Pro"
+msgstr ""
+
+#: includes/admin/license.php:99
+msgid "Welcome to %s! To get started, please enter your license key:"
+msgstr ""
+
+#: includes/admin/license.php:149
+msgid "License"
+msgstr ""
+
+#: includes/admin/notice.php:42
+msgid "Activate the Academy LMS Plugin"
+msgstr ""
+
+#: includes/admin/notice.php:43
+msgid "Before you can use all the features of Academy LMS Pro, you need to activate the Academy LMS Free plugin first."
+msgstr ""
+
+#: includes/admin/notice.php:44
+msgid "Activate Now"
+msgstr ""
+
+#: includes/admin/notice.php:52
+msgid "Install and Activate the Academy LMS Free Plugin"
+msgstr ""
+
+#: includes/admin/notice.php:53
+msgid "Before you can use all the features of Academy LMS Pro, you need to install and activate the Academy LMS Free plugin first."
+msgstr ""
+
+#: includes/admin/notice.php:54
+msgid "Install Academy LMS"
+msgstr ""
+
+#: includes/admin/notice.php:68
+msgid "Academy Pro is not working because you are using an old version of Academy."
+msgstr ""
+
+#: includes/admin/notice.php:69
+msgid "Update Academy Now"
+msgstr ""
+
+#: includes/ajax.php:72
+msgid "Successfully Duplicate Course!"
+msgstr ""
+
+#: includes/ajax.php:74
+msgid "Sorry, Failed To Duplicate Course!"
+msgstr ""
+
+#: includes/ajax.php:94
+msgid "Successfully Duplicate Lesson!"
+msgstr ""
+
+#: includes/ajax.php:96
+msgid "Sorry, Failed To Duplicate Lesson!"
+msgstr ""
+
+#: includes/ajax.php:106
+msgid "Quiz ID is required."
+msgstr ""
+
+#: includes/ajax.php:132
+msgid "Successfully Duplicate Quiz!"
+msgstr ""
+
+#: includes/ajax.php:134
+msgid "Sorry, Failed To Duplicate Quiz!"
+msgstr ""
+
+#: includes/frontend.php:60
+msgid "Oops! Your email verification failed. Please try again or contact support for assistance."
+msgstr ""
+
+#: includes/frontend.php:63
+msgid "Congratulations! Your email has been successfully verified."
+msgstr ""
+
+#: includes/frontend.php:103
+msgid "Public"
+msgstr ""
+
+#. translators: %s template
+#: includes/helper.php:140
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/helper.php:157
+msgid "action_args should not be overwritten when calling academy_pro/get_template."
+msgstr ""
+
+#: includes/shortcode/login-register.php:56
+msgid "Captcha is not matching, please try again."
+msgstr ""
+
+#: includes/shortcode/login-register.php:121
+msgid "Thank you for submitting registration form. Please check your email inbox for a verification email from us. In order to complete your registration, please click the verification link provided in the email. If you do not receive the email within a few minutes, please check your spam or junk folder. If you still do not see the email, please contact us for assistance."
+msgstr ""
+
+#: includes/shortcode/login-register.php:125
+msgid "Failed to registered."
+msgstr ""
+
+#: includes/shortcode/login-register.php:137
+#: includes/shortcode/login-register.php:138
+msgid "Please verify your email before logging in."
+msgstr ""
+
+#: templates/booking/archive/booking-none.php:7
+msgid "No Booking Found!"
+msgstr ""
+
+#: templates/booking/archive/widgets/category.php:9
+msgid "Category"
+msgstr ""
+
+#: templates/booking/archive/widgets/class-type.php:7
+#: templates/booking/single-booking/booking.php:20
+msgid "Class Type"
+msgstr ""
+
+#: templates/booking/archive/widgets/levels.php:7
+msgid "Level"
+msgstr ""
+
+#: templates/booking/archive/widgets/search.php:8
+msgid "Search bookings..."
+msgstr ""
+
+#: templates/booking/archive/widgets/tags.php:9
+msgid "Tag"
+msgstr ""
+
+#: templates/booking/archive/widgets/type.php:7
+msgid "Price Type"
+msgstr ""
+
+#: templates/booking/loop/content.php:23
+msgid "BY -"
+msgstr ""
+
+#: templates/booking/loop/enroll.php:8
+msgid "Get Enrolled"
+msgstr ""
+
+#: templates/booking/loop/header.php:12
+#: templates/booking/single-booking/header.php:8
+msgid "thumbnail"
+msgstr ""
+
+#: templates/booking/single-booking-reviews.php:36
+msgid "Booking"
+msgstr ""
+
+#: templates/booking/single-booking-reviews.php:40
+msgid "Older comments"
+msgstr ""
+
+#: templates/booking/single-booking-reviews.php:44
+msgid "Newer comments"
+msgstr ""
+
+#: templates/booking/single-booking-reviews.php:50
+msgid "Review are closed."
+msgstr ""
+
+#: templates/booking/single-booking/booking-calendar.php:2
+msgid "Book Tutor"
+msgstr ""
+
+#: templates/booking/single-booking/booking.php:27
+msgid "Schedule Types"
+msgstr ""
+
+#: templates/booking/single-booking/booking.php:34
+msgid "Duration"
+msgstr ""
+
+#: templates/booking/single-booking/booking.php:44
+msgid "My Booking"
+msgstr ""
+
+#: templates/booking/single-booking/booking.php:48
+msgid "Book Now"
+msgstr ""
+
+#: templates/booking/single-booking/description.php:7
+msgid "Booking Overview"
+msgstr ""
+
+#: templates/booking/single-booking/feedback.php:7
+msgid "Student Feedback"
+msgstr ""
+
+#: templates/booking/single-booking/feedback.php:19
+msgid "Total"
+msgstr ""
+
+#: templates/booking/single-booking/feedback.php:19
+msgid "Ratings"
+msgstr ""
+
+#: templates/booking/single-booking/instructor.php:18
+#: templates/booking/single-booking/instructor.php:23
+msgid "profile"
+msgstr ""
+
+#: templates/booking/single-booking/instructor.php:27
+msgid "Instructor"
+msgstr ""
+
+#: templates/booking/single-booking/instructor.php:42
+#: templates/booking/single-booking/instructor.php:47
+msgid "Reviews"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:9
+msgid "Add Review"
+msgstr ""
+
+#. translators: %s is product title
+#: templates/booking/single-booking/review-form.php:16
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:20
+msgid "Submit"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:29
+msgid "Name"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:35
+msgid "Email"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: templates/booking/single-booking/review-form.php:60
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:64
+msgid "Rate&hellip;"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:65
+msgid "Perfect"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:66
+msgid "Good"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:67
+msgid "Average"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:68
+msgid "Not that bad"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:69
+msgid "Very poor"
+msgstr ""
+
+#: templates/booking/single-booking/review-form.php:72
+msgid "Enter your feedback"
+msgstr ""
+
+#: templates/booking/single-booking/review-meta.php:23
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: templates/course-prerequisites/prerequisites.php:2
+msgid "NOTE: You have to pass below courses before you can enroll this course."
+msgstr ""
+
+#: templates/email/enrolled-course-admin.php:14
+msgid "Student Profile"
+msgstr ""
+
+#: templates/email/enrolled-course-instructor.php:14
+msgid "Go To Dashboard"
+msgstr ""
+
+#: templates/email/enrolled-course-instructor.php:15
+#: templates/email/finished-course-admin.php:14
+#: templates/email/finished-course-instructor.php:14
+msgid "See Student Profile"
+msgstr ""
+
+#: templates/email/enrolled-course-user.php:14
+msgid "Start Course"
+msgstr ""
+
+#: templates/email/finished-course-user.php:14
+msgid "Rate The Course"
+msgstr ""
+
+#: templates/paid-memberships-pro/pricing.php:17
+msgid "Pick a plan"
+msgstr ""
+
+#: templates/paid-memberships-pro/pricing.php:74
+msgid "Buy Now"
+msgstr ""
+
+#. translators: This is a placeholder for the number of days in a money-back guarantee
+#: templates/paid-memberships-pro/pricing.php:79
+msgid "%d-day money-back guarantee"
+msgstr ""
+
+#: assets/build/tutorBookingCommon.1.7.4.js:1
+msgid "Already Booked!"
+msgstr ""
+
+#: assets/build/tutorBookingCommon.1.7.4.js:1
+msgid "Confirm"
+msgstr ""

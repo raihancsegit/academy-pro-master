@@ -1,0 +1,522 @@
+$montserrat: 'Montserrat', sans-serif;
+$inter: 'Inter', sans-serif;
+
+.academy-single-booking {
+    margin: 20px 0px;
+    padding: 40px 0px;
+
+    &__preview {
+        margin-bottom: 44px;
+
+        img.academy-booking__thumbnail-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    }
+
+    &__category {
+        a {
+            font-family: $montserrat;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #308add;
+            margin-bottom: 6px;
+        }
+    }
+
+    &__title {
+        font-family: $montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 46px;
+        color: #111111;
+        word-break: break-word;
+    }
+
+    &__rating {
+        color: #4d5c6d;
+        display: flex;
+
+        .academy-star-rating-wrap {
+            margin: 0 0.5rem;
+
+            i {
+                color: #f4c150;
+                font-size: 17px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--academy-dark-gray-color);
+    }
+
+    &__meta {
+        display: flex;
+        margin: 10px 0 23px 0;
+
+        &__item {
+            padding: 0px 20px 0px 0px;
+            color: var(--academy-dark-gray-color);
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: capitalize;
+
+            i {
+                margin-right: 2px;
+            }
+
+            a {
+                color: var(--academy-dark-gray-color);
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__content-item {
+
+        &--description,
+        &--benefits,
+        &--additional-info,
+        &--curriculum {
+            word-break: break-word;
+        }
+
+        &--description {
+            padding-top: 25px;
+
+            &-title {
+                font-family: $montserrat;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 60px;
+                color: #111111;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-family: $inter;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 28px;
+                color: var(--academy-text-color);
+                word-break: break-word;
+            }
+        }
+
+        &--additional-info {
+            margin-top: 50px;
+        }
+
+        &--benefits {
+            .benefits-title {
+                font-family: $montserrat;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 60px;
+                color: #111111;
+            }
+
+            .benefits-content {
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+
+                    li {
+                        margin-bottom: 17px;
+
+                        i {
+                            color: var(--academy-dark-gray-color);
+                            margin-right: 10px;
+                            font-size: 12px;
+                        }
+
+                        span {
+                            font-family: $inter;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 28px;
+                            color: var(--academy-text-color);
+                        }
+
+                        // .info-item-icon {
+                        //     margin-right: 8px;
+                        //     color: #007cc3;
+                        // }
+                    }
+                }
+            }
+        }
+
+        &--curriculum {
+            .academy-curriculum-title {
+                font-family: $montserrat;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 60px;
+                color: #111111;
+                margin-bottom: 8px;
+            }
+        }
+
+        .booking-single-instructor {
+            border-bottom: 1px solid var(--academy-border-color);
+            padding-bottom: 20px;
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            .instructor-info {
+                display: flex;
+                margin-right: 115px;
+
+                &__thumbnail {
+                    margin-right: 16px;
+
+                    img {
+                        width: 62px;
+                        height: 62px;
+                        border-radius: 50%;
+                    }
+                }
+
+                &__content {
+                    .instructor-title {
+                        font-family: $inter;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 30px;
+                        text-transform: uppercase;
+                        color: var(--academy-dark-gray-color);
+                    }
+
+                    .instructor-name {
+                        margin: 0;
+
+                        a {
+                            font-family: $inter;
+                            font-size: 14px;
+                            line-height: 30px;
+                            text-transform: capitalize;
+                            color: #111;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .instructor-review {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                &__title {
+                    font-family: $inter;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 30px;
+                    text-transform: uppercase;
+                    color: var(--academy-dark-gray-color);
+                }
+
+                &__rating {
+                    font-family: $inter;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 30px;
+
+                    .academy-group-star {
+                        margin-right: 5px;
+
+                        .academy-icon {
+                            margin-right: 4px;
+
+                            &::before {
+                                color: #f4c150;
+                            }
+                        }
+                    }
+
+                    span {
+                        font-family: $inter;
+                        color: var(--academy-text-color);
+                    }
+                }
+            }
+
+            .instructor-details {
+                .instructor-name {
+                    text-transform: capitalize;
+                    margin-bottom: 0;
+                    font-weight: 500;
+                    font-size: 16px;
+
+                    a {
+                        color: var(--academy-text-color);
+                        text-decoration: none;
+                    }
+                }
+
+                .instructor-designation {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: var(--academy-dark-gray-color);
+                }
+
+                .portfolio-about-me-text {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: var(--academy-dark-gray-color);
+                }
+            }
+        }
+        
+        &--feedback {
+            margin-bottom: 60px;
+            margin-top: 10px;
+
+            .feedback-title {
+                font-family: $montserrat;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 60px;
+                color: #111111;
+                margin-bottom: 20px;
+            }
+
+            .academy-student-booking-feedback-ratings {
+                background: #ffffff;
+                border: 1px solid var(--academy-border-color);
+                box-sizing: border-box;
+                border-radius: 10px;
+                padding: 30px 30px 10px 50px;
+
+                .academy-avg-rating {
+                    font-family: $montserrat;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 30px;
+                    color: #111111;
+                    margin-bottom: 24px;
+                }
+
+                .academy-avg-rating-html {
+                    margin-bottom: 23px;
+
+                    .academy-icon {
+                        margin-right: 4px;
+
+                        &::before {
+                            color: #f4c150;
+                        }
+                    }
+                }
+
+                .academy-avg-rating-total {
+                    font-family: $inter;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: var(--academy-text-color);
+                }
+
+                p {
+                    margin: 0;
+                }
+
+                .academy-ratings-list-item {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    font-family: $inter;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: var(--academy-text-color);
+
+                    .academy-ratings-list-item-col {
+                        margin: 0 4px;
+                        font-family: $inter;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+
+                    .academy-icon {
+                        color: #f4c150;
+                    }
+
+                    .academy-ratings-list-item-fill {
+                        background: #e7e7e7;
+                        border-radius: 3px;
+                        width: 300px;
+                        height: 6px;
+                        margin: 0 19px 0 20px;
+
+                        &-bar {
+                            background: #f4c150;
+                            border-radius: 3px 0px 0px 3px;
+                            width: 267px;
+                            height: 6px;
+                        }
+                    }
+
+                    .academy-ratings-list-item-label {
+                        width: 70px;
+                        font-family: $inter;
+                        font-size: 14px;
+                        font-weight: 400;
+
+                        span {
+                            color: var(--academy-dark-gray-color);
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &--reviews {
+            .academy-review-form {
+                .comment-respond {
+                    form.comment-form {
+                        .submit {
+                            height: 50px;
+                            border-radius: 8px !important;
+                            line-height: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .academy-lesson-list {
+            &__item {
+                .academy-entry-content {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+
+    .academy-tabs-nav {
+        li {
+            margin-right: 50px;
+
+            a {
+                background: none;
+                padding: 0;
+                line-height: 36px;
+                transition: all 0.3s ease;
+
+                &:focus {
+                    background: none !important;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.academy-lesson-preview-modal {
+    background: #fff;
+    width: 550px;
+    min-height: 330;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 4px;
+    p {
+        margin-bottom: 0;
+    }
+}
+
+@media all and (max-width: 1024px) and (min-width: 991px) {
+    .academy-widget-enroll__wishlist-and-share {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .academy-single-booking .academy-tabs-nav li {
+        margin-right: 30px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .academy-single-booking {
+        .academy-container {
+            .academy-row {
+                gap: 20px; 
+            }
+        }
+    }
+}
+
+@media all and (max-width: 480px) {
+    .academy-single-booking__content-item--instructors .booking-single-instructor {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .academy-single-booking__content-item--instructors .booking-single-instructor .instructor-info {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .academy-single-booking {
+        .academy-tabs-nav {
+            border-bottom: 0;
+
+            li {
+                margin-right: 0;
+                display: block;
+                border-bottom: 2px solid var(--academy-border-color);
+
+                &.active {
+                    border-bottom-color: var(--academy-primary-color);
+                }
+            }
+        }
+    }
+
+    // review
+    .academy-single-booking__content-item--feedback .academy-student-booking-feedback-ratings {
+        padding: 50px 30px 30px;
+
+        .academy-avg-rating {
+            margin-bottom: 15px;
+        }
+
+        .academy-ratings-list {
+            margin-top: 30px;
+
+            .academy-ratings-list-item .academy-ratings-list-item-fill {
+                width: 50%;
+            }
+        }
+    }
+
+    .academy-lesson-preview-modal{
+        width: 350px;
+    }
+}

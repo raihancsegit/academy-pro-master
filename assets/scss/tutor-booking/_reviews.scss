@@ -1,0 +1,172 @@
+.academy-review-list {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+    li {
+        padding-bottom: 20px;
+        margin-top: 25px;
+        border-bottom: 1px solid var(--academy-border-color);
+        .academy-review_container {
+            display: flex;
+            align-items: flex-start;
+            .academy-review-thumnail {
+                min-width: 50px;
+                margin-right: 19px;
+                text-align: center;
+                img {
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    margin-bottom: 13px;
+                }
+                .academy-group-star {
+                    i {
+                        color: #f4c150;
+                    }
+                }
+            }
+            .academy-review-content {
+                .academy-review-meta {
+                    margin-bottom: 0;
+                    &__author {
+                        display: block;
+                        font-family: $inter;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 22px;
+                        color: var(--academy-text-color);
+                    }
+                    &__published-date {
+                        display: block;
+                    }
+                }
+                .academy-review-description {
+                    margin-top: 10px;
+                    p {
+                        font-family: $inter;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 28px;
+                        color: var(--academy-text-color);
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+}
+
+.academy-review-form {
+    border-radius: 10px;
+    background: #fff;
+    transition: all 0.3s ease;
+    border: 1px solid var(--academy-border-color);
+    input[type="submit"] {
+		padding: 0 15px;
+		height: 50px;
+	}
+    &__add-review {
+        // background-image: url('./../../images/add-review.png');
+        background-repeat: no-repeat;
+        background-position: 30px 50%;
+        padding: 15px;
+        text-align: right;
+        border-radius: 10px;
+        .academy-btn-add-review {
+            display: inline-block;
+            width: auto;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    .academy-review-form-rating {
+        p.stars {
+            margin-top: 0;
+            line-height: 14px;
+            margin-bottom: 15px !important;
+            > span {
+                display: flex;
+                column-gap: 8px;
+            }
+        }
+        p.stars a {
+            position: relative;
+            height: 1em;
+            width: 1em;
+            text-indent: -999em;
+            display: inline-block;
+            text-decoration: none;
+            box-shadow: none;
+            color: #f4c150;
+        }
+        p.stars a::before {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1em;
+            height: 1em;
+            line-height: 1;
+            font-family: 'AcademyFont';
+            content: '\e926';
+            text-indent: 0;
+        }
+        p.stars a:hover ~ a::before {
+            content: '\e926';
+        }
+        p.stars:hover a::before {
+            content: '\e927';
+        }
+        p.stars.selected a.active::before {
+            content: '\e927';
+        }
+        p.stars.selected a.active ~ a::before {
+            content: '\e926';
+        }
+        p.stars.selected a:not(.active)::before {
+            content: '\e927';
+        }
+    }
+    .comment-respond {
+        display: none;
+        padding: 30px 40px 30px 50px;
+        margin: 0;
+        form.comment-form {
+            margin: 0;
+            label {
+                margin-bottom: 5px;
+            }
+            .academy-review-form-review {
+                textarea {
+                    background: rgba(0, 0, 0, 0.05);
+                    border-radius: 8px;
+                    border: 1px solid rgba(0, 0, 0, 0.05);
+                    font-family: $inter;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    color: var(--academy-text-color);
+                }
+            }
+        }
+    }
+    &--open-form {
+        border: 1px solid var(--academy-border-color);
+        box-sizing: border-box;
+        box-shadow: 0px 20px 50px var(--academy-border-color);
+        .academy-review-form__add-review {
+            border-radius: 0;
+            border-bottom: 1px solid var(--academy-border-color);
+        }
+        .comment-respond {
+            display: block;
+        }
+    }
+    #respond .form-submit {
+        float: unset;
+    }
+}
